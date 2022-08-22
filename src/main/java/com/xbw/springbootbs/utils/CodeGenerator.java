@@ -32,7 +32,7 @@ public class CodeGenerator {
                     builder.entityBuilder().enableLombok();
                     builder.controllerBuilder().enableHyphenStyle()//开启驼峰转连字符
                                     .enableRestStyle();//开启生成@RestControllerk控制器
-                    builder.addInclude("sys_user")
+                    builder.addInclude("sys_menu")
                             .addTablePrefix("t_","sys_");
                 })
 //                .templateEngine(new FreemarkerTemplateEngine())
